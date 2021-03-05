@@ -1,5 +1,6 @@
 let currentSlide = 0;
 let totalSliders = document.querySelectorAll('.slider--item').length;
+let bb;
 function goPrev(){
 	currentSlide--;
 	if(currentSlide < 0){
@@ -33,3 +34,19 @@ function updateMargin(){
 	document.querySelector('.slider--width').style.marginLeft = `-${newMargin}px`;
 }
 setInterval(goNext,3000);
+
+let text = document.querySelectorAll('.executive--hotel--samba-inner--item--text p');
+document.querySelectorAll('.executive--hotel--samba-inner--item--text p').forEach((item)=>{
+	let v = item.innerHTML.slice(0,220);
+	item.innerHTML = v;
+});
+	document.querySelectorAll('.btn--show').forEach((item, index)=>{
+		item.addEventListener('click',(e)=>{
+			e.target.closest('.executive--hotel--samba-inner--item').querySelector('.executive--hotel--samba-inner--item--text').innerHTML = "VALOR";
+			if(item.innerHTML == "Ver menos"){
+				item.innerHTML = "Ver mais";
+			}else{
+				item.innerHTML = "Ver menos";
+			}
+		});
+	});

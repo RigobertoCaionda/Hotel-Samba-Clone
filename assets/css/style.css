@@ -179,11 +179,54 @@ header{
 	.booking--right--bottom--item input{
 		padding:6px 10px 6px 20px;
 	}
-	.submit{
+	.booking--right--bottom--item input.submit{
 		color: #fff;
 		background-color: #1b1b1b;
 		font-size: 0.9rem;
 		font-weight: 700;
-		padding:8px 10px 8px 20px;
+		padding:8px 20px 8px 20px;
+		cursor: pointer;
 	}
 /*END OF BOOKING*/
+/*EXECUTIVE HOTEL SAMBA*/
+	.executive--hotel--samba h1{
+		margin-top: 100px;
+		margin-bottom: 45px;
+		font-size: 2rem;
+		color: #1b1b1b;
+		text-align: center;
+	}
+	.bar2{
+		margin:auto;
+		background-color: #a38a41;
+		margin-bottom: 50px;
+	}
+	.executive--hotel--samba-inner{
+		display: flex;
+		justify-content: center;
+		padding:0 100px 100px 100px;
+	}
+	.executive--hotel--samba-inner--item{
+		margin-right: 50px;
+		flex:1;
+	}
+	.executive--hotel--samba-inner--item:last-child{
+		margin-right: 0;
+	}
+	.executive--hotel--samba-inner--item--title h2{
+		text-align: center;
+		margin-bottom: 25px;
+		color: #b82025;
+		font-size: 1.1rem;
+	}
+	.executive--hotel--samba-inner--item--text p{
+		text-align: center;
+		color: #1b1b1b;
+		font-size: 0.9rem;
+	}
+	.btn--show{
+		text-align: center;
+		color: #b82025;
+		cursor: pointer;
+	}
+/*END OF EXECUTIVE HOTEL SAMBA*/
