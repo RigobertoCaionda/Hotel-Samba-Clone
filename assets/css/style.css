@@ -229,4 +229,76 @@ header{
 		color: #b82025;
 		cursor: pointer;
 	}
+	.another--section{
+		display: flex;
+		border-top: 5px solid #b82025;
+	}
+	.another--section--left{
+		background-color: #1b1b1b;
+		padding:100px 20px 90px 90px;
+	}
+	.another--section--left img{
+		cursor: pointer;
+	}
+	.another--section--right{
+		background-color: #9a813e;
+	}
+	.another--section--left--title{
+		padding-bottom: 25px;
+		border-bottom: 1px solid #b82025;
+		color: #fff;
+		font-size: 2.2rem;
+		font-weight: 700;
+		margin-bottom: 30px;
+	}
+	.another--section--left--text{
+		color: #fff;
+		text-align: center;
+		font-size: 0.9rem;
+	}
+	.another--section--left--texts{
+		margin-right: 30px;
+		width: 400px;
+	}
+	.another--section--left--item{
+		display: flex;
+	}
+	.another--section--left--item{
+		margin-bottom: 35px;
+	}
+	.another--section--right{
+		width: 100%;
+		padding:100px 130px 100px 20px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+	.another--section--right--item--top{
+		font-size: 0.9rem;
+		color: #1b1b1b;
+		margin-bottom: 30px;
+	}
+	.another--section--right--item--top span{
+		font-size: 1.8rem;
+	}
+	.another--section--right--item--middle{
+		color: #1b1b1b;
+		font-size: 0.9rem;
+		line-height: 25px;
+		margin-bottom: 20px;
+	}
+	.another--section--right--item--bottom{
+		color: #fff;
+		font-size: 0.9rem;
+		padding-left: 40px;
+	}
+	.another--section--right--item--bottom ul li{
+		list-style: circle;
+	}
+	.another--section--right--item{
+		margin-bottom: 110px;
+	}
+	.another--section--right--item:last-child{
+		margin-bottom: 0;
+	}
 /*END OF EXECUTIVE HOTEL SAMBA*/
