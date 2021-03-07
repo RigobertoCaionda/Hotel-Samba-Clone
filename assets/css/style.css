@@ -200,6 +200,7 @@ header{
 		margin:auto;
 		background-color: #a38a41;
 		margin-bottom: 50px;
+		width: 80px;
 	}
 	.executive--hotel--samba-inner{
 		display: flex;
@@ -302,3 +303,166 @@ header{
 		margin-bottom: 0;
 	}
 /*END OF EXECUTIVE HOTEL SAMBA*/
+
+/*GALLERY*/
+.gallery{
+	padding:90px;
+	background-color: #f1f1f1;
+}
+	.gallery--title{
+		margin-bottom: 35px;
+	}
+	.gallery--title h1{
+		text-align: center;
+		font-weight: 400;
+		font-size: 2.5rem;
+		color: #1b1b1b;
+	}
+	.gallery--container{
+		display: grid;
+		grid-template-columns: repeat(3,1fr);
+		gap:20px;
+	}
+	.gallery--container--item{
+		transition: all ease-in 0.4s;
+		cursor: pointer;
+	}
+	#item1{
+		grid-column-start: 1;
+		grid-column-end: 2;
+		grid-row-start: 1;
+		grid-row-end: 2;
+	}
+	#item2{
+		background-image: url(../images/image3.jpg);
+		background-position: center;
+		background-size: cover;
+		text-align: center;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+
+	}
+	.item4{
+		background-image: url(../images/image3.jpg);
+		background-position: center;
+		background-size: cover;
+		text-align: center;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		height: 350px;
+		margin-top: 20px;
+	}
+	.gallery--container--item--inner{
+		background-image: url(../images/image3.jpg);
+		background-position: center;
+		background-size: cover;
+		text-align: center;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		height: 50%;
+		margin-bottom: 20px;
+		transition: all ease-in 0.4s;
+	}
+	.gallery--container--item--inner:last-child{
+		margin-bottom: 0;
+	}
+	.gallery--container--item:first-child:hover, .gallery--container--item:nth-child(3):hover{
+		opacity: 1;
+	}
+	.gallery--container--item--inner:hover{
+		opacity: 0.6;
+	}
+	.gallery--container--item--inner:hover h1{
+		display: block!important;
+	}
+	.gallery--container--item h1{
+		color: #97864a;
+		font-weight: 400;
+		font-size: 2rem;
+		display: none;
+	}
+	.gallery--container--item:hover{
+		opacity: 0.6;
+	}
+	.gallery--container--item:hover h1{
+		display: block;
+	}
+	.gallery--container--item:nth-child(3):hover h1{
+		display: none;
+	}
+/*END OF GALLERY*/
+
+/*TESTEMUNHO*/
+	.testemunho{
+		overflow: hidden;
+		background-color: #a08d4e;
+	}
+	.testemunho--slider--width{
+		display: flex;
+		transition: all ease-in-out 0.4s;
+	}
+	.testemunho--slider--width--item p{
+		width: 100vw;
+		font-size: 0.8rem;
+		text-align: center;
+		color: #fff;
+	}
+	.testemunho--slider--width--item{
+		padding-bottom: 200px;
+	}
+	.testemunho--title h1{
+		color: #fff;
+		text-align: center;
+		font-size: 2rem;
+		padding-top: 85px;
+		padding-bottom: 50px;
+	}
+/*END OF TESTEMUNHO*/
+
+/*FOOTER*/
+.footer--top{
+	padding-top: 100px;
+	padding-bottom: 100px;
+	background-color: #1b1b1b;
+}
+	.footer--top--title{
+		text-align: center;
+		margin-bottom: 35px;
+		font-size: 1.5rem;
+		color: #fff;
+	}
+	.footer--top--title span{
+		font-weight: 700;
+	}
+	.footer--top--item{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.footer--top--item--inner{
+		margin-bottom: 10px;
+		color: #888888;
+		font-size: 0.9rem;
+		text-align: center;
+	}
+	.footer--top--item--inner a{
+		color: #888888;
+	}
+	.footer--top--item--inner a:hover{
+		color: #fff;
+	}
+	.footer--top--item--inner:last-child{
+		margin-bottom: 0;
+	}
+	.footer--bottom{
+		text-align: center;
+		color: #888888;
+		background-color: #272727;
+		padding-top: 20px;
+		padding-bottom: 20px;
+		font-size: 0.9rem;
+	}
+/*END OF FOOTER*/
