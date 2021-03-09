@@ -79,3 +79,11 @@ document.querySelectorAll('.executive--hotel--samba-inner--item--text p').forEac
 			}
 		});
 	});
+	document.querySelector('.menu--Openner').addEventListener('click',()=>{
+		let ul = document.querySelector('.header--right nav ul');
+		if(ul.classList.contains('showMenu')){
+			ul.classList.remove('showMenu');
+		}else{
+			ul.classList.add('showMenu');
+		}
+	})
