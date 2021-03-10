@@ -760,6 +760,7 @@ header{
 		.menu--Openner{
 			display: block;
 		}
+		
 		.menu--Openner i{
 			font-size: 40px;
 		}
@@ -792,10 +793,10 @@ header{
 			border:0;
 		}
 		.slider--item--h2 h2 span{
-		font-size: 1.2rem;
+		font-size: 0.9rem;
 	}
 	.slider--item--h1 h1{
-		font-size: 2.2rem;
+		font-size: 2rem;
 	}
 		.booking{
 			flex-direction: column;
@@ -874,6 +875,9 @@ header{
 		.booking--right--top{
 			flex-direction: column;
 		}
+		.booking--right--top--item input {
+		    width: 100%;
+		}
 		.joinner{
 			flex-direction: column;
 			margin-bottom: 20px;
@@ -900,6 +904,9 @@ header{
 			}
 			#item1 {
 		  	 margin:auto;
+			}
+			#item1 iframe{
+				width: 95%;
 			}
 			.item4{
 				height: 250px;
