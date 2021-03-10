@@ -870,7 +870,9 @@ header{
 		    width: 123%;
 		}
 		.submit{
-			width: 100%!important;
+			all:unset;
+			width: 88%!important;
+			text-align: center;
 		}
 		.booking--right--top{
 			flex-direction: column;
