@@ -876,6 +876,7 @@ header{
 			flex-direction: column;
 		}
 		.booking--right--top--item input {
+			display: inline-block;
 		    all: unset;
 		    background-color: #fff;
 		    width: 100%;
