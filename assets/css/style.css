@@ -707,6 +707,17 @@ header{
 		.booking--right--top{
 			flex-direction: column;
 		}
+		.booking--right--top--item input {
+			display: inline-block;
+		    all: unset;
+		    background-color: #fff;
+		    width: 100%;
+		    height: 30px;
+		}
+		.booking--right--top--item select {
+		    background-color: unset;
+		    background-color: #fff;
+		}
 		.joinner{
 			flex-direction: column;
 			margin-bottom: 20px;
@@ -985,10 +996,10 @@ header{
 			border:0;
 		}
 		.slider--item--h2 h2 span{
-		font-size: 1.2rem;
+		font-size: 1rem;
 	}
 	.slider--item--h1 h1{
-		font-size: 2.2rem;
+		font-size: 2rem;
 	}
 		.booking{
 			flex-direction: column;
@@ -1066,6 +1077,17 @@ header{
 		}
 		.booking--right--top{
 			flex-direction: column;
+		}
+		.booking--right--top--item input {
+			display: inline-block;
+		    all: unset;
+		    background-color: #fff;
+		    width: 100%;
+		    height: 30px;
+		}
+		.booking--right--top--item select {
+		    background-color: unset;
+		    background-color: #fff;
 		}
 		.joinner{
 			flex-direction: column;
