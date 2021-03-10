@@ -877,7 +877,7 @@ header{
 		}
 		.booking--right--top--item input {
 		    all:unset;
-		    padding:6px 0 6px 20px;
+		    padding:15px 0 15px 20px;
 		    background-color: #fff;
 		    width: 94%;
 		}
