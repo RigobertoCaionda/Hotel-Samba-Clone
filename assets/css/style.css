@@ -880,7 +880,7 @@ header{
 		    padding:6px 0 6px 20px;
 		    background-color: #fff;
 		    width: 94%;
-		    width: 35px;
+		    height: 35px;
 		}
 		.joinner{
 			flex-direction: column;
