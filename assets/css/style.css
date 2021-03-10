@@ -875,7 +875,10 @@ header{
 		.booking--right--top{
 			flex-direction: column;
 		}
-		
+		.booking--right--top--item input {
+		   
+		    width: 94%;
+		}
 		.joinner{
 			flex-direction: column;
 			margin-bottom: 20px;
