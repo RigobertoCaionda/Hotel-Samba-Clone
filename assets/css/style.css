@@ -883,6 +883,7 @@ header{
 		    height: 30px;
 		}
 		.booking--right--top--item select {
+		    background-color: unset;
 		    background-color: #fff;
 		}
 		
