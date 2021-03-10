@@ -876,8 +876,10 @@ header{
 			flex-direction: column;
 		}
 		.booking--right--top--item input {
-		    padding:6px 250px 6px 20px;
 		    width: 100%;
+		}
+		.booking--right--top--item{
+			width: 100%;
 		}
 		.joinner{
 			flex-direction: column;
